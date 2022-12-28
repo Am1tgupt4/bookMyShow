@@ -1,0 +1,28 @@
+.video-item {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    .video-item-view {
+        box-sizing: border-box;
+        flex: 7;
+    }
+    .video-item-details {
+        box-sizing: border-box;
+        flex: 5;
+        background: black;
+        width: 95%;
+        height: 490px;
+    }
+}
+
+.lists{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    .lists-items {
+        margin: 0px 20px;
+    }
+}
+
+

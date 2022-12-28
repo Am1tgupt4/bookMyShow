@@ -1,0 +1,62 @@
+.video-details {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 15px 20px;
+    color: #FFFFFF;
+    .vedio-name {
+        font-size: 18px;
+    }
+    .vedio-language {
+        font-size: 15px;
+        margin: 12px 0px;
+        opacity: 0.8;
+    }
+    .action-scifi {
+        display: flex;
+        font-size: 14px;
+        margin: 14px 0px;
+        opacity: 0.7;
+        align-items: center;
+        div {
+            margin-right: 20px;
+            border: 1px solid #FFFFFF;
+            padding: 3px 25px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+        }
+    }
+    .vote-date {
+        display: flex;
+        margin: 14px 0px;
+    }
+    .vedio-description {
+        margin: 14px 0px;
+        .show-more {
+            max-height: 150px;
+            overflow-y: auto;
+            p {
+                font-size: 14px;
+                opacity: 0.7;
+            }
+        } 
+        span {
+            background: none;
+            color: green;
+            font-size: 14px;
+            cursor: pointer;
+            padding: 2px 10px 3px 0px;
+            font-weight: 700;
+        }
+    }
+    .like-unlike {
+        // border: 1px solid red;
+        position: absolute;
+        bottom: 0px;
+        width: -webkit-fill-available;
+        height: 50px;
+        margin-right: 20px;
+    }
+}
